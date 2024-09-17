@@ -6,9 +6,9 @@
   files: .*
   stages: [commit-msg]
 - id: gradle-spotless
-  name: 'Gradle Spotless'
+  name: 'Gradle Java Spotless'
   entry: hooks/gradle-spotless
-  description: runs gradlew spotless in the current project
+  description: runs gradle spotless for java in the current project
   language: script
   files: .*
   stages: [pre-commit]
